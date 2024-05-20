@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <style>
+  body {
+    background-image: url('back.jpg');
+  }
+  </style>
+  
+    <div class="clock-container">
+        <div class="clock">
+            <div id="hours" class="segment"></div>
+            <div id="minutes" class="segment"></div>
+            <div id="seconds" class="segment"></div>
+            <div id="period" class="segment"></div>
+            <div id="date" class="segment"></div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="formatSwitch">
+            <span class="slider round"></span>
+        </label>
+        <button id="toggleButton">Turn Off</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
