@@ -1,6 +1,4 @@
-// script.js
-
-document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => {
     const hoursElement = document.getElementById('hours');
     const minutesElement = document.getElementById('minutes');
     const secondsElement = document.getElementById('seconds');
